@@ -7,3 +7,75 @@ html{
     background-color:rgba(217, 217, 217, 1)
 }
 
+@font-face {
+    font-family: fuente2;
+    src: url("../assets/fonts/NotoSans.ttf");
+}
+@font-face {
+    font-family: fuente2;
+    src: url("../assets/fonts/MerriweatherSans.ttf");
+}
+
+
+/* HEADER */
+
+header{
+    display: flex;
+    padding: 2%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 12.5rem;
+}
+.lupa img{
+    width: 6rem;
+}
+nav ul{
+    display: inline-flex;
+    padding: .625rem;
+    list-style-type: none;
+}
+nav ul a{
+    text-decoration: none;
+    font-family: fuente1;
+    color: rgba(24, 45, 152, 1);
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 1.25rem;
+}
+
+/* TITULO */
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.foto_principal{
+    width: 38%;
+}
+.foto_principal img{
+    height: 34rem;
+}
+.titulo{
+    background-color: rgba(24, 45, 152, 1);
+    border-radius:250px 0px 0px 250px;
+    width: 62%;
+    height: 34rem;
+}
+.principal h1{
+    font-family: fuente2;
+    font-size: 4rem;
+    color: rgba(248, 117, 22, 1);
+    text-align: center;
+    padding-top: 15%;
+}
+.principal h2{
+    font-family: fuente2;
+    font-size: 3.5rem;
+    color: white;
+    text-align: center;
+    padding-top: 8%;
+}
