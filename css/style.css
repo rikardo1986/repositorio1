@@ -16,13 +16,11 @@ html{
     src: url("../assets/fonts/MerriweatherSans.ttf");
 }
 
-
 /* HEADER */
 
 header{
-    display: flex;
-    padding: 2%;
     width: 100%;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -78,4 +76,36 @@ nav ul a{
     color: white;
     text-align: center;
     padding-top: 8%;
+}
+
+.servicios1{
+    border-color: black;
+    padding: 5%;
+    width: 100%;
+    height: 5rem;
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    grid-template-rows: 100px;
+}
+button{
+    color: white;
+    text-align: center;
+}
+
+.ticket{
+    background-color: blue;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.movil{
+    background-color: red;    grid-column: 4/6;
+    grid-row: 1/3;
+}
+.carpetas{
+    background-color: green;    grid-column: 4/6;
+    grid-row: 1/3;
+}
+.vpn{
+    background-color: yellow;    grid-column: 4/6;
+    grid-row: 4/6;
 }
