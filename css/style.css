@@ -8,7 +8,7 @@ html{
 }
 
 @font-face {
-    font-family: fuente2;
+    font-family: fuente1;
     src: url("../assets/fonts/NotoSans.ttf");
 }
 @font-face {
@@ -51,16 +51,14 @@ nav ul a{
     flex-direction: row;
     width: 100%;
 }
-.foto_principal{
-    width: 38%;
-}
 .foto_principal img{
+    width: 140%;
     height: 34rem;
 }
 .titulo{
     background-color: rgba(24, 45, 152, 1);
     border-radius:250px 0px 0px 250px;
-    width: 62%;
+    width: 70%;
     height: 34rem;
 }
 .principal h1{
@@ -68,7 +66,7 @@ nav ul a{
     font-size: 4rem;
     color: rgba(248, 117, 22, 1);
     text-align: center;
-    padding-top: 15%;
+    padding-top: 9%;
 }
 .principal h2{
     font-family: fuente2;
@@ -77,35 +75,137 @@ nav ul a{
     text-align: center;
     padding-top: 8%;
 }
+/* SERVICIOS 1*/
 
 .servicios1{
-    border-color: black;
-    padding: 5%;
-    width: 100%;
-    height: 5rem;
     display: grid;
-    grid-template-columns:repeat(5, 1fr);
-    grid-template-rows: 100px;
+    grid-template-columns:repeat(7, 16rem);
+    grid-template-rows: repeat(7, 8rem);
+    wrap
 }
-button{
+.ticket{
+    background-image: url("../assets/img/ticket.png");
+    background-size: cover;
+    border-radius:5%;
+    font-family: fuente2;
+    text-shadow: 0.4rem 0.25rem 0.3rem black;
+    font-size: 1.8rem;
+    padding-top: 20%;
     color: white;
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+.movil{
+    background-image: url("../assets/img/outlook.png");
+    background-size: cover;
+    border-radius:5%;
+    font-family: fuente2;
+    text-shadow: 0.4rem 0.25rem 0.3rem black;
+    font-size: 1.8rem;
+    padding-top: 20%;
+    color: white;
+    grid-column: 5/7;
+    grid-row: 2/4;
+}
+
+.carpetas{
+    background-image: url("../assets/img/carpetas.png");
+    background-size: cover;
+    border-radius:5%;
+    font-family: fuente2;
+    text-shadow: 0.4rem 0.25rem 0.3rem black;
+    font-size: 1.8rem;
+    padding-top: 20%;
+    color: white;
+    grid-column: 2/4;
+    grid-row: 5/7;
+}
+
+.vpn{
+    background-image: url("../assets/img/vpn1.jpg");
+    background-size: cover;
+    border-radius:5%;
+    font-family: fuente2;
+    text-shadow: 0.4rem 0.25rem 0.3rem black;
+    font-size: 1.8rem;
+    padding-top: 20%;
+    color: white;
+    grid-column: 5/7;
+    grid-row: 5/7;
+}
+
+/* SECCION MEDIA */
+
+.seccion{
+    width: 100%;
+    height: 18.75rem;
+    background-color: rgba(24, 45, 152, 1);
+}
+.seccion p{
+    padding: 2%;
+    color: white;
+    font-family: fuente2;
+    font-size: 3rem;
     text-align: center;
 }
 
-.ticket{
-    background-color: blue;
-    grid-column: 1/3;
+/* SERVICIOS 2 */
+
+.servicios2{
+        padding-top: 5%;
+        display: grid;
+        grid-template-columns:repeat(7, 15rem);
+        grid-template-rows: repeat(9, 6rem);
+}
+
+.servicios2 button{
+    background-color:#da962f;
+    color:#182c97;
+    font-family: fuente2;
+    text-align:center;
+    font-size:2rem;
+    border-radius:40px;
+}
+.archivar{
+    grid-column: 2/4;
     grid-row: 1/3;
 }
-.movil{
-    background-color: red;    grid-column: 4/6;
+.reenvio{
+    grid-column: 5/7;
     grid-row: 1/3;
 }
-.carpetas{
-    background-color: green;    grid-column: 4/6;
-    grid-row: 1/3;
-}
-.vpn{
-    background-color: yellow;    grid-column: 4/6;
+.firma{
+    grid-column: 2/4;
     grid-row: 4/6;
 }
+.teams{
+    grid-column: 5/7;
+    grid-row: 4/6;
+}
+.eivg{
+    grid-column: 2/4;
+    grid-row: 7/9;
+}
+.clave{
+    grid-column: 5/7;
+    grid-row: 7/9;
+}
+
+/* PIE DE PAGINA */
+
+footer{
+    width: 100%;
+    height: 18.75rem;
+    background-color: rgba(24, 45, 152, 1);
+}
+footer p{
+    padding-top: 2%;
+    color: white;
+    font-family: fuente2;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+/***** UNIDADES ******/
+
