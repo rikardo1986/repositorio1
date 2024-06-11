@@ -113,6 +113,7 @@ nav ul a{
     font-size: 4rem;
     color: rgba(248, 117, 22, 1);
     text-align: center;
+    padding-top: 10%;
 }
 
 .titulo h2{
@@ -120,6 +121,7 @@ nav ul a{
     font-size: 3.5rem;
     color: white;
     text-align: center;
+    padding-top: 8%;
 }
 
 
