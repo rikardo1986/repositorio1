@@ -29,7 +29,6 @@ nav ul{
     list-style-type: none;
     order: 1;
 }
-
 nav ul a{
     text-decoration: none;
     font-family: fuente1;
@@ -111,7 +110,7 @@ nav ul a{
  
 @media (max-width:425px) {
     header {
-        display: none;
+        flex-direction: row-reverse;
     }
     .logo {
         width:0%
@@ -119,7 +118,34 @@ nav ul a{
     .lupa {
         width: 0%;
     }
+    nav ul {
+        padding-bottom: 2%;
+    }
+    nav ul a {
+        font-size: 0.75rem;
+        padding: 0.28rem;
+    }
 }
+
+@media (max-width:320px) {
+    header {
+        flex-direction: row-reverse;
+    }
+    .logo {
+        width:0%
+    }
+    .lupa {
+        width: 0%;
+    }
+    nav ul {
+        padding-bottom: 2%;
+    }
+    nav ul a {
+        font-size: 0.6rem;
+        padding: 0.2rem;
+    }
+}
+
 /* TITULO */
 
 .principal {
@@ -762,6 +788,18 @@ footer p{
     color: white;
 }
 
+@media (max-width:425px) {
+    .container label {
+        font-size: 1rem;
+    }
+    .form-label p{
+        font-size: 1rem;
+    }
+    .container button {
+        font-size: 1.0rem;
+        padding: 0.5rem;
+    }
+}
 
 
 
